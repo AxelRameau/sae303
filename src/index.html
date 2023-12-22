@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="../dist/output.css" rel="stylesheet">
+</head>
+
+<body class="font-Poppins bg-beige scroll-smooth ">
+
+  <!-- premier section avec animation de la poubelle -->
+  <main>
+    <article class="flex flex-row w-full">
+      <img src="../assets/Fichier 3 copie.svg" class="w-1/3 h-80">
+      <section class="flex flex-col">
+        <img src="../assets/Plan de travail 23.png" class="">
+        <img class="w-fit mx-auto mt-20" src="../assets/Plan de travail 3.png"
+          alt="Titre correspondant à 'Valorisons nos déchets'">
+      </section>
+      <img src="../assets/Fichier 4 copie.svg" class="w-1/3 h-80">
+    </article>
+    <div class="text-center rounded-full w-36 h-36 ml-7 pink bg-[#ED4F68] text-[#F5EDD6]">
+      <h1 class="py-5 px-3 text-sm"> Ce site est accessible uniquement sur chrome dans un format desktop
+    </div>
+    <article class="flex flex-col lg:flex-row justify-center items-center px-20 mb-20">
+      <section class="">
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <lottie-player src="../animation/poublavrai.json" background="none" speed="1"
+          style="width: 700px; height: 700px;" autoplay></lottie-player>
+      </section>
+      <section class="text-4xl flex items-center">
+        <div class="flex flex-col lg:items-center lg:justify-center gap-8" id="questionnaire">
+          <h2 class=" font-bold text-center text-4xl text-pink"> CETTE BOUTEILLE AURAIT ENCORE PU SERVIR ! </h2>
+          <p class="font-normal"> Malgré qu’elle soit en plastique elle peut être recyclée. Aujourd'hui les déchets
+            ménagers dans le monde sont en légère diminution depuis 2018 grâce au recyclage. </p>
+          <div class="flex flex-row gap-0">
+            <img src="../assets/Fichier 12.svg" class="w-1/3 h-80">
+            <img src="../assets/Fichier 13.svg" class="w-1/3 h-80 mt-40">
+            <img src="../assets/Fichier 12.svg" class="w-1/3 h-80">
+          </div>
+      </section>
+    </article>
+
+    <!-- fin premier section avec animation de la poubelle -->
+
+    <div>
+      <lottie-player autoplay loop mode="bounce" class="" id="deco" src="../animation/déco bouge.json"></lottie-player>
+    </div>
+    <!-- deuxieme section avec animation du camion -->
+    <article class="flex items-start w-full">
+      <section class="">
+        <lottie-player class="z-20 " id="camion" src="../animation/camion.json" style="width: 70rem;"></lottie-player>
+      </section>
+      <section class="flex flex-col text-center justify-end w-full mr-40 ">
+        <div class="flex flex-row mt-20">
+          <img src="../assets/Plan de travail g.png" alt="Titre correspondant à 'Qu'il y'a t'il dans nos poubelles ?'"
+            class="justify-center mt-40 h-44">
+        </div>
+        <p class="text-2xl mb-10">Les déchets ménagers sont constitués en majorité de <span class="font-bold text-pink">
+            matière organique de textile</span> & <span class="font-bold text-pink"></span>sanitaire </span> et de <span
+            class="font-bold text-pink">papiers </span>.</p>
+        <img src="../assets/Fichier 11.png" class="justify-center mx-auto h-80 w-80">
+      </section>
+    </article>
+    <!-- fin deuxieme section avec animation du camion -->
+
+    <!-- troisieme section avec animation du camion qui roule et usine-->
+    <article class="relative h-screen">
+      <section class="absolute top-[-5rem] left-[-9rem] z-[-20]">
+        <lottie-player class=" w-camionroule" id="camionquiroule"
+          src="../animation/camionquiroulerefait.json"></lottie-player>
+        <img src="../assets/Plan de travail 25.png" class="ml-[35rem] w-100">
+        <div class="absolute top-[-5rem] left-[-9rem] w-150 bg-[#433264]">
+        </div>
+      </section>
+      <p class="absolute top-[380px] left-[350px] right-[250px] w-fit  text-center text-2xl"> Après avoir été jetés, les déchets peuvent être <span class="font-bold text-pink">éliminés </span>ce qui fait référence au processus de gestion des déchets produits par les activités humaines afin de minimiser leur impact sur l'environnement. Ce processus comprend plusieurs étapes, allant de la collecte à la disposition finale des déchets. 
+
+        Il existe aussi <span class="font-bold text-pink">la valorisation </span>, destinée aux déchets qui ne peuvent être recyclés ou valorisés sous forme de matière. La valorisation énergétique consiste à récupérer et valoriser l'énergie produite lors du traitement des déchets par combustion. L'énergie produite est utilisée sous forme de chaleur ou d'électricité. 
+        
+        En grande majorité nos déchets finissent par être <span class="font-bold text-pink">recyclés </span>afin de devenir des <span class="font-bold text-pink">emballages</span>.</p>
+      <lottie-player class="absolute z-10 top-[400px] left-[282px] w-150 h-200" id="usine"
+        src="../animation/usinev2.json"></lottie-player>
+      <lottie-player class="absolute z-10 top-[500px] left-[952px] w-52 h-200" id="anime"
+        src="../animation/Animation - 1703235750966.json" autoplay loop speed="0.5"></lottie-player>
+      <p class="absolute  top-[700px] left-[1300px] text-2xl w-[30rem] text-center"> Nos déchets proviennent en grande
+        majorité de la construction : c'est le secteur de l'industrie le plus polluant, avec <span
+          class="font-bold text-pink">213 000 000 de tonnes de déchets par an </span>, en deuxième on a les entreprises
+        puis les ménages. </p>
+    </article>
+
+    <!-- fin troisieme section avec animation du camion qui roule et usine-->
+
+    <!-- quatrieme section avec enginroulant-->
+    <div class="mt-72">
+      <img class="mx-auto w-200" src="../assets/titre4.png" alt="Titre correspondant à 'Recyclabe à 100% ? '">
+      <section class="flex items-start w-full"> 
+        <lottie-player id="enginroulant" src="../animation/enginroulantrefait.json" class="w-200 "></lottie-player>
+        <p class="text-2xl w-100   text-center mt-80 mx-16"> <span class="font-bold text-pink">Le plastique</span> peut être recyclé à <span class="font-bold text-pink">100% </span>mais n’est pas recyclable à l’infini, <span class="font-bold text-pink">le bois </span>peut être recyclé à <span class="font-bold text-pink">79%</span>, <span class="font-bold text-pink">les déchets organiques</span> à <span class="font-bold text-pink">100%</span> et peuvent être même recyclés à la maison et <span clas="">l’acier</span> à <span class="font-bold text-pink">100%</span> et à l’infini !</p>
+      </section>
+      <p class="text-center text-2xl w-fit m-10"> Malheureusement <span class="font-bold text-pink"> non </span>, nous
+        ne sommes pas encore capable de recycler tous nos déchets. Cependant <span class="font-bold text-pink">66 %
+        </span> de nos déchets sont recyclés. En <span class="font-bold text-pink">adoptant </span>des pratiques de tri,
+        en <span class="font-bold text-pink">sensibilisant </span>davantage sur les matériaux recyclables, et en <span
+          class="font-bold text-pink">investissant </span>dans des technologies innovantes, il est possible de
+        rapprocher cette aspiration contribuant ainsi à <span class="font-bold text-pink">un environnement plus
+          durable</span>.</p>
+          
+    </div>
+    <!-- fin quatrieme section avecenginroulant-->
+
+    <!-- cinquieme section personnages-->
+
+    <div class="flex flex-col justify-center items-center gap-16 mt-24">
+      <img class="mx-auto w-200" src="../assets/titre5.png"
+        alt="Titre correspondant à 'Le recyclage créé 120 000 emplois'">
+      <lottie-player class="" id="perso" src="../animation/persoouvrier 1.json"></lottie-player>
+    </div>
+    <!-- fin cinquieme section personnages-->
+
+    <!-- sixieme sections chariot-->
+    <div>
+      <img class="mx-auto w-200" src="../assets/titre6.png"
+        alt="Titre correspondant à 'Ils permettent d'approvisionner de nombreuses industries'">
+      <lottie-player id="chariot1" src="../animation/chariot1encore.json" class="chariot1"
+        style="width: 100rem; top: 0;"></lottie-player>
+
+      <lottie-player id="chariot2" src="../animation/chariot2encore.json" class="chariot1"
+        style="width: 100rem;"></lottie-player>
+      <lottie-player id="chariot3" src="../animation/chariot3encore.json" style="width: 100rem; "
+        class=""></lottie-player>
+    </div>
+    <!-- fin sixieme sections chariot-->
+
+    <!-- septieme sections stylo-->
+    <div>
+      <img class="mx-auto w-200" src="../assets/titre7.png"
+        alt="Titre correspondant à 'Serait-il mieux de ne pas produire de déchets ? '">
+      <lottie-player class="" id="stylo" src="../animation/styloquidessine.json" style="height: 600px;"></lottie-player>
+      <p class="text-center text-2xl w-fit mt-2 m-20">La réduction à la source des déchets est incontestablement
+        préférable à leur production. En adoptant des modes de vie durables axés sur la réutilisation, le recyclage et
+        la consommation consciente, nous pouvons minimiser notre empreinte écologique.<span class="font-bold text-pink">
+          Moins de déchets </span> signifient <span class="font-bold text-pink">moins de pression </span> sur les
+        ressources naturelles, réduisant ainsi les impacts environnementaux et les défis liés à l’élimination des
+        déchets.</p>
+    </div>
+    <!-- fin septieme sections stylo-->
+
+    <!-- huitieme sections carte-->
+    <div class="">
+      <img class="mx-auto w-200" src="../assets/titre8.png"
+        alt="Titre correspondant à 'Moins produire pour changer nos habitudes'">
+      <div class="grid grid-cols-4 mx-44">
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <!-- 1 -->
+        <lottie-player src="../animation/carte-compost.json" background="none" speed="4"
+          style="width: 350px; height: 600px;  margin-top: -8rem; margin-left: -15rem," hover></lottie-player>
+        <!-- 2 -->
+        <lottie-player src="../animation/carte-machine.json" background="none" speed="4"
+          style="width: 350px; height: 600px;  margin-top: -10rem ;" hover></lottie-player>
+        <!-- 3-->
+        <lottie-player src="../animation/carte-donnez.json" background="none" speed="3"
+          style="width: 350px; height: 600px;  margin-top: rem; margin-left: 5rem" hover></lottie-player>
+        <!-- 4 -->
+        <lottie-player src="../animation/carte-vrac.json" background="none" speed="4"
+          style="width: 350px; height: 400px;  margin-top: -5rem" hover></lottie-player>
+        <!-- 5-->
+        <lottie-player src="../animation/carte-stylo.json" background="none" speed="4"
+          style="width: 350px; height: 600px; margin-top: -25rem; margin-left: -5rem;" hover></lottie-player>
+        <!-- 6-->
+        <lottie-player src="../animation/carte-emmausrefait.json" background="none" speed="4"
+          style="width: 350px; height: 600px; margin-top: -28rem; margin-left: -5rem; " hover></lottie-player>
+        <!-- 7 -->
+        <lottie-player src="../animation/carte-bouteille.json" background="none" speed="4"
+          style="width: 350px; height: 600px; margin-top:-24rem; margin-left: -8rem;" hover></lottie-player>
+        <!--  8 -->
+        <lottie-player src="../animation/carte-savrefait.json" background="none" speed="4"
+          style="width: 350px; height: 600px; margin-top: -20rem; margin-right: -5rem;" hover></lottie-player>
+      </div>
+    </div>
+    <!-- huitieme sections carte-->
+
+    <!-- neuvieme sections planete-->
+    <div class=" w-full mt-[-10rem]">
+      <img class=" w-200 mx-auto" src="../assets/Plan de travail 11.png" alt="faites partie du changements '">
+    </div>
+    <lottie-player id="terre" src="../animation/terre-pouf 1.json" class=""></lottie-player>
+    <!-- fin neuvieme sections planete-->
+
+    <!-- dixieme sections footer-->
+  </main>
+  <footer class="w-full bg-bluefooter p-5 mt-8  text-pink ">
+    <article class="flex justify-center items-center gap-20 opacity-100">
+      <section>
+        <h2 class="text-center text-4xl font-bold"> Sources </h2>
+        <a class="text-4xl font-thin"
+          href="https://librairie.ademe.fr/dechets-economie-circulaire/6108-dechets-chiffres-cles-edition-2023.html">
+          ADEME </a>
+      </section>
+
+      <section id="btn__top" class="cursor-pointer">
+        <svg width="128" height="128" viewBox="0 0 46 67" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M25.1213 0.87868C23.9497 -0.292893 22.0502 -0.292893 20.8787 0.87868L1.78679 19.9706C0.615222 21.1421 0.615222 23.0416 1.78679 24.2132C2.95837 25.3848 4.85786 25.3848 6.02944 24.2132L23 7.24264L39.9706 24.2132C41.1421 25.3848 43.0416 25.3848 44.2132 24.2132C45.3848 23.0416 45.3848 21.1421 44.2132 19.9706L25.1213 0.87868ZM26 67L26 3L20 3L20 67L26 67Z"
+            fill="#ED4F68" />
+        </svg>
+      </section>
+      <section>
+        <h2 class="text-4xl font-bold text-left"> Crédit </h2>
+        <p class="text-xl font-thin text-left "> Lou Buchet<br> Axel Rameau <br> Charlotte Dourneau </p>
+      </section>
+    </article>
+  </footer>
+
+  <!-- dixieme sections footer-->
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
+
+
+
+  <script>
+    const btn = document.getElementById('btn__top');
+    btn.addEventListener('click', () => {
+      window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "smooth"
+      })
+    })    
+  </script>
+  <script>
+    LottieInteractivity.create({
+      player: '#deco',
+      mode: 'scroll',
+      actions: [
+        {
+          visibility: [0, 1],
+          type: 'play',
+          frames: [0, 90],
+        },
+      ]
+    });
+  </script>
+
+  <script>
+    LottieInteractivity.create({
+      player: '#camion',
+      mode: 'cursor',
+      actions: [
+        {
+          type: "pauseHold"
+        }
+      ]
+    });
+  </script>
+  <script>
+    LottieInteractivity.create({
+      player: '#camionquiroule',
+      mode: 'scroll',
+      actions: [
+        {
+          visibility: [0, 1],
+          type: 'seek',
+          frames: [0, 90],
+        },
+      ]
+    });
+  </script>
+  <script>
+    LottieInteractivity.create({
+      player: '#usine',
+      mode: 'chain',
+      actions: [
+        {
+          state: 'autoplay',
+          transition: 'click',
+          frames: 'un'
+        },
+        {
+          state: 'autoplay',
+          transition: 'none',
+          frames: 'deux'
+        }
+      ]
+    });
+  </script>
+  <script>
+    LottieInteractivity.create({
+      player: '#enginroulant',
+      mode: 'chain',
+      actions: [
+        {
+          state: 'autoplay',
+          transition: 'hover',
+          frames: 'un',
+        },
+        {
+          state: 'autoplay',
+          transition: 'none',
+          frames: 'deux',
+        },
+      ]
+    });
+  </script>
+  <script>
+    LottieInteractivity.create({
+      player: '#perso',
+      mode: 'scroll',
+      actions: [
+        {
+          visibility: [0, 1],
+          type: 'seek',
+          frames: [0, 100],
+        },
+      ]
+    });
+  </script>
+  <script>
+    LottieInteractivity.create({
+      player: '#chariot1',
+      mode: 'chain',
+      actions: [
+        {
+          state: 'hover',
+          transition: 'onComplete',
+          frames: 'un',
+          speed: "2.5"
+        },
+        {
+          state: 'loop',
+          transition: 'hover',
+          frames: 'deux',
+        },
+        {
+          state: 'autoplay',
+          transition: 'none',
+          frames: 'trois',
+        },
+      ]
+    });
+  </script>
+  <script>
+    LottieInteractivity.create({
+      player: '#chariot2',
+      mode: 'chain',
+      actions: [
+        {
+          state: 'hover',
+          transition: 'onComplete',
+          frames: 'un',
+          speed: "2.5"
+        },
+        {
+          state: 'loop',
+          transition: 'hover',
+          frames: 'deux',
+        },
+        {
+          state: 'autoplay',
+          transition: 'none',
+          frames: 'trois',
+        },
+      ]
+    });
+  </script>
+  <script>
+    LottieInteractivity.create({
+      player: '#chariot3',
+      mode: 'chain',
+      actions: [
+        {
+          state: 'hover',
+          transition: 'onComplete',
+          frames: 'un',
+          speed: "2.5"
+        },
+        {
+          state: 'loop',
+          transition: 'hover',
+          frames: 'deux',
+        },
+        {
+          state: 'autoplay',
+          transition: 'none',
+          frames: 'trois',
+        },
+      ]
+    });
+  </script>
+  <script>
+    LottieInteractivity.create({
+      player: '#stylo',
+      mode: 'scroll',
+      actions: [
+        {
+          visibility: [0, 1],
+          type: 'seek',
+          frames: [0, 160],
+        },
+      ]
+    });
+  </script>
+  <script> LottieInteractivity.create({
+      player: '#terre',
+      mode: 'chain',
+      actions: [
+        {
+          state: 'loop',
+          transition: 'click',
+          frames: 'un'
+        },
+        {
+          state: 'autoplay',
+          transition: 'onComplete',
+          frames: 'deux'
+        },
+        {
+          state: 'loop',
+          transition: 'none',
+          frames: 'trois',
+        }
+      ]
+    });
+  </script>
+</body>
+
+</html>

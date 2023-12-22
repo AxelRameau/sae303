@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;700;800&display=swap');
+    :root {
+      --ff-Poppins : "Poppins", sans-serif;
+      --black-opa40 : rgba(237, 79, 104, 0.5);
+      --pink: rgba(237, 79, 104, 1); 
+      --bluefooter:rgba(140, 217, 248, 0.5); 
+      --blue:rgba(140, 217, 248, 1);
+      --beige:rgba(239, 234, 218, 1);
+      --darkblue:rgba(7, 134, 196, 1);
+      --darkpink:rgba(112, 57, 88, 1);
+      --violet:rgba(67, 50, 100, 1);
+      --fond : rgba(255, 244, 238, 0.77);
+  
+      --fond-img: url('../assets/fond.png');
+      --fond-img-saucisson: url('../assets/saucisson-pur-porc.jpg');
+    }
+  } 
+  
